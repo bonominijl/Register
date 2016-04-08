@@ -1,0 +1,126 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+h1 {
+  font-size: 2em;
+  color: white;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  background: rgba(255, 255, 255, 0.4);
+  padding-left: 8px;
+}
+h4 {
+  color: white;
+}
+.close {
+  color: white;
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  background: rgba(112, 112, 112, 1);
+  background: -moz-linear-gradient(top, rgba(112, 112, 112, 1) 0%, rgba(41, 41, 41, 1) 86%, rgba(26, 26, 26, 1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(112, 112, 112, 1)), color-stop(86%, rgba(41, 41, 41, 1)), color-stop(100%, rgba(26, 26, 26, 1)));
+  background: -webkit-linear-gradient(top, rgba(112, 112, 112, 1) 0%, rgba(41, 41, 41, 1) 86%, rgba(26, 26, 26, 1) 100%);
+  background: -o-linear-gradient(top, rgba(112, 112, 112, 1) 0%, rgba(41, 41, 41, 1) 86%, rgba(26, 26, 26, 1) 100%);
+  background: -ms-linear-gradient(top, rgba(112, 112, 112, 1) 0%, rgba(41, 41, 41, 1) 86%, rgba(26, 26, 26, 1) 100%);
+  background: linear-gradient(to bottom, rgba(112, 112, 112, 1) 0%, rgba(41, 41, 41, 1) 86%, rgba(26, 26, 26, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#707070', endColorstr='#1a1a1a', GradientType=0);
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+.css-input {
+  font-size: 16px;
+  border-color: #cccccc;
+  border-style: solid;
+  padding: 16px;
+  text-shadow: 0px 0px 0px rgba(42, 42, 42, .75);
+  border-width: 0px;
+  border-radius: 50px;
+  width: 40%;
+  margin: 15px 15px 15px 0px;
+}
+input, button:focus {
+  outline: none;
+}
+.buttons {
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.1);
+  border: solid 0.5px rgba(255, 255, 255, 0.2);
+  ;
+  border-radius: 25px;
+}
+.buttons:hover {
+  background-color: rgba(248, 80, 50, .8);
+  border-color: rgba(248, 80, 50, .8);
+}
+.custom-counter li {
+  list-style-type: none;
+  margin-right: 5px;
+  font-size: 1.5em;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-weight: bold;
+  padding: 3px 8px;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.2);
+}
+.btn-success {
+  background: rgba(255, 255, 255, 0.2);
+  font-family: 'Open Sans', sans-serif;
+  background: rgba(130, 130, 130, 1);
+  border: none;
+}
+.btn-success:hover {
+  background-color: rgba(248, 80, 50, .9);
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+.btn-success:focus {
+  background-color: rgba(248, 80, 50, .9);
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+.modal-content {
+  background: rgba(112, 112, 112, .8);
+}
+.modal-footer {
+  background: rgba(112, 112, 112, 1.2);
+  border: none;
+}
+.modal-header {
+  background: rgba(112, 112, 112, 1.2);
+  border: none;
+}
+.help-block {
+  color: white;
+}
+#error-message {
+  color: red;
+}
+#error-message-two {
+  color: red;
+}
+
+@media screen and (min-width: 768px) { .form-horizontal .form-group {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+}
+
+#title {
+  background-color: transparent;
+  text-align: center;
+  padding-top: 60px;
+  font-weight: normal;
+  font-size: 3em;
+
+
+}
