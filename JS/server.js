@@ -2,6 +2,7 @@
 
 const Hapi = require('hapi');
 var Inert = require('inert');
+var fs = require('fs');
 const server = new Hapi.Server();
 server.connection({
   port: 3000
@@ -14,15 +15,14 @@ server.route({
   method: 'POST',
   path: '/assets/inStock.json',
   handler: function(request, reply) {
-    var newStock = JSON.parse(request.payload.newStock); // {name: "apple", price: 2, sku 7826347}, for example
+    var newStock = JSON.parse(request.payload.newStock); // {name: "apple", price: 2, sku 78297}, for example
     stock.push(newStock);
-console.log(stock);
     var inStock = {
       allStock: stock
     };
-
     return reply(inStock);
   }
+
 });
 server.route({
   method: 'GET',
